@@ -7,3 +7,5 @@ class Favorites extends Component {
     );
   }
 }
+
+export default Favorites;
