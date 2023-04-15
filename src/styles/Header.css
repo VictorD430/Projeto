@@ -1,0 +1,40 @@
+.header-component {
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 8px;
+  display: flex;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.header-component a {
+  background-color: aqua;
+  border-radius: 15px;
+  color: blue;
+  font-weight: 900;
+  margin: 0 10px;
+  height: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header-component a:hover {
+  background-color: chartreuse;
+}
+
+.header-user {
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  color: blue;
+  font-weight: 900;
+  display: flex;
+  margin: 0 10px;
+  height: 20px;
+  padding: 10px;
+}
+
+.header-user:hover {
+  font-weight: 950;
+}
