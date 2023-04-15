@@ -13,8 +13,8 @@
   border-radius: 15px;
   color: blue;
   font-weight: 900;
-  margin: 0 10px;
   height: 20px;
+  margin: 0 10px;
   padding: 10px;
   text-decoration: none;
 }
@@ -28,10 +28,10 @@
   background-color: white;
   border-radius: 15px;
   color: blue;
-  font-weight: 900;
   display: flex;
-  margin: 0 10px;
+  font-weight: 900;
   height: 20px;
+  margin: 0 10px;
   padding: 10px;
 }
 
