@@ -17,8 +17,8 @@ audio {
   background-color: white;
   border-radius: 15px;
   border-style: double;
-  color: aquamarine;
   box-shadow: 1px 1px 0px 0 black;
+  color: aquamarine;
 }
 
 audio:hover {
@@ -30,8 +30,8 @@ p {
 }
 
 img {
-  width: 100px;
   align-content: center;
+  width: 100px;
 }
 
 .page-album {
