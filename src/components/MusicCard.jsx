@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import MyCheckbox from './MyCheckbox';
 
 export default class MusicCard extends Component {
@@ -23,7 +24,7 @@ export default class MusicCard extends Component {
             />
           ) : '' }
         <p className="song-name">{trackName}</p>
-        <audio data-tesid="audio-component" src={ previewUrl } controls>
+        <audio data-testid="audio-component" src={ previewUrl } controls>
           <track kind="captions" />
           O seu navegador não suporta o elemento
           <code>audio</code>
