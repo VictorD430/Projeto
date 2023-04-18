@@ -1,0 +1,44 @@
+.tracks-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.song-name {
+  font-weight: 600;
+  width: 20%;
+}
+
+audio {
+  background-color: white;
+  border-radius: 15px;
+  border-style: double;
+  color: aquamarine;
+  box-shadow: 1px 1px 0px 0 black;
+}
+
+audio:hover {
+  color: blue;
+}
+
+p {
+  font-weight: 900;
+}
+
+img {
+  width: 100px;
+  align-content: center;
+}
+
+.page-album {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  width: 80%;
+}
